@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Test1 {
-	
+
 	Test2 test2 = new Test2();
 
 	@PostConstruct
@@ -20,12 +20,12 @@ public class Test1 {
 		System.out.println("Finalizandos os comandos");
 		System.out.println("By Casseb----------------------->>>>>>>>>>>>>>>>");
 	}
-	
+
 	public void sayHi() {
-		System.out.println("Hi");
+		System.out.println("Hi do Leonardo!");
 	}
-	
-	
+
+
 	public void sayHello() {
 		System.out.println("Hello");
 	}
