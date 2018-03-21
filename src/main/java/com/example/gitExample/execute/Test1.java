@@ -22,7 +22,7 @@ public class Test1 {
 	}
 
 	public void sayHi() {
-		System.out.println("Hi do Leonardo!");
+		System.out.println("Leonardo compra bolo!");
 	}
 
 
